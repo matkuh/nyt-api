@@ -1,0 +1,39 @@
+.jumbotron{
+    background-color: #272383;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+img {
+    height: 4%;
+    width: 4%;
+    align-content: center;
+    margin-right: 10px;
+    color: white;
+}
+#jumbocont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.form-group {
+    margin: 0, auto;
+}
+.card {
+    /* margin:20px; */
+}
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+hr {
+    /* margin:20px; */
+}
+body {
+    margin: 0 20px;
+}
+
