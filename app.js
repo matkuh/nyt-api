@@ -1,5 +1,7 @@
 var topic = "election";
-var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + topic +  "&api-key=fBs1RPRrwFA5G9rVStMepw4pGAMeA2C9";
+var startDate = "18520101";
+var endDate = "19500604";
+var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + topic +  "facet_fields=source&facet=true&begin_date=" +startDate +"&end_date=" +endDate +"&api-key=fBs1RPRrwFA5G9rVStMepw4pGAMeA2C9";
 
 $.ajax({
     url: queryURL, 
