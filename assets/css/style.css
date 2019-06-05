@@ -3,11 +3,11 @@
 }
 h1 {
     color: white;
-    text-align: center;
+    /* text-align: center; */
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-img {
+#newspaper {
     height: 4%;
     width: 4%;
     align-content: center;
@@ -36,4 +36,12 @@ hr {
 body {
     margin: 0 20px;
 }
+.calendar {
+    height: 15px;
+    width: 15px;
+}
+#articlebox {
+    margin-top: 20px;
+}
+
 
