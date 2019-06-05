@@ -25,5 +25,16 @@ $("#submit").on("click", function()  {
         console.log(returned);
         console.log("Headline: " + returned.response.docs[0].headline.main);
         console.log("Lead Paragraph: "  + returned.response.docs[0].lead_paragraph);
+        if(numRecords>10) {
+            numRecords = 10;
+        }
+        for(var i = 0; i < numRecords; i++) {
+            var newDiv = $("<div>");
+            //create an attribute to style
+            newDiv.append("<h1>" + returned.response.docs[i].headline.main);
+            newDiv.append("<h5>Date Published: " + returned.response.docs[i].pub_date);
+            newDiv.append("<p>" + returned.response.docs[i].lead_paragraph);
+            $("#articles").append(newDiv);
+        }
     });
 })
