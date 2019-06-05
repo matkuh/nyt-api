@@ -1,0 +1,40 @@
+.jumbotron{
+    background-color: rgb(33,46,91);
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#newspaper {
+    height: 4%;
+    width: 4%;
+    align-content: center;
+    margin-right: 10px;
+    color: white;
+}
+#jumbocont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.form-group {
+    margin: 0, auto;
+}
+footer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+body {
+    margin: 0 20px;
+}
+.calendar {
+    height: 15px;
+    width: 15px;
+}
+#articlebox {
+    margin-top: 20px;
+}
+
+
